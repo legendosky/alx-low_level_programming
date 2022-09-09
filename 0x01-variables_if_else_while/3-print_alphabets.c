@@ -3,13 +3,13 @@
 /**
  * main - Entry point
  *
- * Description: using the main function
+ * Description:vusing the main function
  * Return: 0
  */
 int main(void)
 {
 	char i;
-	char j;
+	char j:
 	
 	for (i = 'a'; i <= 'z'; i++)
 	{
