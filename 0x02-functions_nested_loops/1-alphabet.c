@@ -3,6 +3,8 @@
 /**
  * main - Entry - Print_alphabet
  *
+ * Description: using the main function
+ *
  * Return: 0
  */
 
