@@ -2,7 +2,6 @@
 
 /**
  * main - print_alphabet
- *
  * Return: 0
  */
 
