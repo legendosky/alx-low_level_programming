@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: using the string function
+ * Description: using the sring function
  *
  * Return: 0 nothing, return void
  */
@@ -21,5 +21,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-		
 }
