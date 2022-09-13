@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * times_table -prints tables
  *
@@ -6,7 +6,7 @@
  */
 void times_table(void)
 {
-	int a; 
+	int a;
 	int b;
 	int c;
 
