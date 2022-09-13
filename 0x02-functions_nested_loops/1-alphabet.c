@@ -2,7 +2,7 @@
 
 /**
  * main - Entry - Print_alphabet
- * Description: using the string function
+ *
  * Return: 0
  */
 
