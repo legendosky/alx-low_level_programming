@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry - Point
- *
- * Description: using the main function
+ * main - print_alphabet
  *
  * Return: 0
  */
