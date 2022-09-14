@@ -38,11 +38,12 @@ void print_times_table(int n)
 				{
 					_putchar((times / 100) + 48);
 					_putchar(((times / 10) % 10) + 48);
-					_putchar((times % 10) +48);
+					_putchar((times % 10) + 48);
 				}
 			}
 			_putchar('\n');
 		}
 		break;
 	}
+	
 }
