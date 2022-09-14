@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_timees_table - prints times table of the input,
+ * print_times_table - Prints times table of the input,
  *                      starting with 0.
  * @n: The value of the times table to be printed.
  */
@@ -37,7 +37,8 @@ void print_times_table(int n)
 				}
 				_putchar((prod % 10) + '0');
 			}
+
 			_putchar('\n');
 		}
 	}
-}	
+}
