@@ -34,7 +34,11 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar((times / 10) + 48);
 					_putchar((times % 10) + 48);
+<<<<<<< HEAD
 				} else if (times > 9 && times < 1000)
+=======
+				} else if (times > 99 && times < 1000)
+>>>>>>> 746d7f371b3a55c371b7197632087e93f54be697
 				{
 					_putchar((times / 100) + 48);
 					_putchar(((times / 10) % 10) + 48);
