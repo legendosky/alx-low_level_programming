@@ -1,15 +1,20 @@
-#include "main.h"
 #include <unistd.h>
+#include "main.h"
+
 /**
- * print_times_table - Prints times table of the input,
- *                      starting with 0.
- * @n: The value of the times table to be printed.
+ * print_times_table - Entry point
+ * @n: integer input
+ *
+ * Description:  Print n times table, doesnt print
+ * if n is integer or greater than 15
+ *
+ * Return: Always void (success)
  */
 void print_times_table(int n)
 {
 	int i, j, times;
 
-	while (n > 0 && n < 15)
+	while (n >= 0 && n < 15)
 	{
 		for (i = 0; i <= n; i++)
 		{
@@ -29,18 +34,14 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar((times / 10) + 48);
 					_putchar((times % 10) + 48);
-
-				} else if (times > 99 && times < 1000)
-
+				} else if (times > 9 && times < 1000)
 				{
 					_putchar((times / 100) + 48);
 					_putchar(((times / 10) % 10) + 48);
 					_putchar((times % 10) + 48);
 				}
-				
 			}
 			_putchar('\n');
 		}
 		break;
 	}
-}
